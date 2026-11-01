@@ -1,0 +1,36 @@
+** start of index.html **
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Video Compilation Page</title>
+</head>
+
+<body>
+    <main>
+        <h1>Here is a compilation of videos for you to enjoy</h1>
+        <p>We've brought together a selection of our most frequently watched videos for your convenience.</p>
+        <section>
+            <h2>HTML 5</h2>
+            <p>HTML is where it all begins in web development.  There are no websites without HTML.</p>
+            <iframe src="https://www.youtube.com/embed/cESaIUWoCJQ" title="HTML vid" height="400" width="600"></iframe>
+        </section>
+        <section>
+            <h2>CSS 3</h2>
+            <p>If HTML is like the bones of a website, then CSS would be the muscles that go over the bones.  It takes the black and white like aesthetics of HTML and add color and style to them.</p>
+            <iframe src="https://www.youtube.com/embed/A5Vn6WUh92M" title="HTML vid" height="400" width="600"></iframe>
+        </section>
+        <section>
+            <h2>Javascript</h2>
+            <p>Bones and muscle are essential, but in this analogy they're not complete without the third and final layer, Javascript.  Javascript complete the anatomy of a website by giving it a beautiful face to interact with.</p>
+            <iframe src="https://www.youtube.com/embed/tMkpiFIW8Xg" title="HTML vid" height="400" width="600"></iframe>
+        </section>
+    </main>
+</body>
+
+</html>
+
+** end of index.html **
+

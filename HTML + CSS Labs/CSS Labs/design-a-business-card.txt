@@ -1,0 +1,72 @@
+** start of index.html **
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Business Card</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <main>
+        <div class="business-card">
+            <img class ="profile-image" src="https://cdn.freecodecamp.org/curriculum/labs/flower.jpg" alt="a picture of a flower">
+            <p class="full-name">Joseph Florian</p>
+            <p class="designation">Supervisor</p>
+            <p class="company">Duke Energy</p>
+            <hr>
+            <p>germ005@hotmail.com</p>
+            <p>727-555-5555</p>
+            <a href="https://www.google.com">Portfolio</a>
+            <hr>
+            <div class="social-media">
+            <h2>Connect with me</h2>
+            <a href="https://www.google.com">Twitter</a>
+            <a href="https://www.google.com">LinkedIn</a>
+            <a href="https://www.google.com">GitHub</a>
+        </div>
+        </div>
+        
+    </main>
+</body>
+
+</html>
+
+** end of index.html **
+
+** start of styles.css **
+
+body {
+  background: rosybrown;
+  font-family: Arial, sans-serif;
+  color: yellow;
+}
+
+p {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.business-card {
+  background: black;
+  width: 300px;
+  padding: 20px;
+  margin-top: 100px;
+  text-align: center;
+  font-size: 16px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.profile-image {
+  max-width: 100%;
+}
+
+** end of styles.css **
+

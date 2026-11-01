@@ -1,0 +1,35 @@
+** start of index.html **
+
+<!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Movie Review</title>
+ </head>
+
+<body>
+    <main>
+        <h1>The Rise of the One</h1>
+        <img src="https://cdn.freecodecamp.org/curriculum/labs/rise-beyond-2.png" alt="a boy holding a guitar staring at a city sky line">
+        <p>In this film, you get to see the story of a young man learn the truth of his origin, learn to wield his inner strength and free the people from the oppression of The System.  It's a wild ride filled with struggle, growth, love and persevearance.</p>
+
+        <p>
+            <strong>Movie Rating:</strong>
+            <span aria-hidden="true">⭐⭐⭐⭐⭐⭐⭐⭐⭐☆</span> (9.2/10)
+        </p>
+
+        <h2>Cast Members</h2>
+        <ul>
+            <li><strong>Joe Flo</strong> as The One</li>
+            <li><strong>Jamie Florian</strong> as Trinity</li>
+            <li><strong>Jace Florian</strong> as The Protege</li>
+            <li><strong>Joe Flo Jr.</strong> as The Future</li>
+        </ul>
+    </main>
+</body>
+
+</html>
+
+** end of index.html **
+

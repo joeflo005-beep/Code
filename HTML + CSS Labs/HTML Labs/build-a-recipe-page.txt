@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Master Chef Recipes</title>
+    <meta charset="utf-8">
+  </head>
+  <body>
+    <section>
+      <h1>French Toast Recipe</h1>
+      <p>This is the classic breakfast choice that's up there with pancakes as one of the staples of American breakfast.</p>
+      <img src="https://cdn.freecodecamp.org/curriculum/labs/recipe.jpg" alt="breakfast ingredients">
+    </section>
+    <section>
+      <h2>Ingredients</h2>
+      <ul>
+        <li>eggs</li>
+        <li>milk</li>
+        <li>sliced bread</li>
+        <li>cinnamon</li>
+        <li>butter</li>
+      </ul>
+    </section>
+    <section>
+      <h2>Instructions</h2>
+      <ol>
+        <li>crack eggs into a bowl</li>
+        <li>thoroughly whisk eggs</li>
+        <li>add cinnamon to eggs</li>
+        <li>add milk to eggs</li>
+        <li>add butter to heated pan</li>
+        <li>dip sliced break into eggs on each side</li>
+        <li>cook for 3 minutes on each side</li>
+      </ol>
+    </section>
+  </body>
+</html>

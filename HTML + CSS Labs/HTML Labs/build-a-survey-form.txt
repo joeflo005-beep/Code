@@ -1,0 +1,80 @@
+** start of index.html **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Survey Form</title>
+  </head>
+
+  <body>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">Please take the time to fill out the short survey below</p>
+    <form id="survey-form">
+      <fieldset>
+        <legend>Your info</legend>
+        <label for="name" id="name-label">Name</label>
+        <input id="name" type="text" required placeholder="Full Name"><br>
+        <label for="email" id="email-label">Email</label>
+        <input id="email" type="email" required placeholder="Email Address"><br>
+        <label for="number" id="number-label">Age (optional)</label>
+       <input id="number" type="number" min="13" max="100" placeholder="Age">
+      </fieldset>
+
+      <fieldset>
+        <legend>Tell us how you'd rate your experience</legend>
+       <label for="dropdown">Rating</label>
+        <select id="dropdown">
+         <option value="poor">Poor</option>\
+         <option value="decent">Decent</option>
+         <option value="good">Good</option>
+         <option value="great">Great</option>
+         <option value="amazing" selected>Amazing</option>
+       </select>
+      </fieldset>
+
+      <fieldset>
+       <legend>What did you think about the food?</legend>
+       <label for="good-option">Good</label>
+       <input id="good-option" type="radio" value="good" name="food">
+       <label for="bad-option">Bad</label>
+       <input id="bad-option" type="radio" value="bad" name="food">
+      </fieldset>
+
+      <fieldset>
+        <legend>Do you love anime?</legend>
+        <label for="like">I like it</label>
+        <input id="like" type="radio" name="anime" value="like">
+        <label for="love">I love it</label>
+        <input id="love" type="radio" name="anime" value="love">
+      </fieldset>
+
+      <fieldset>
+       <legend>Your favorite anime</legend>
+       <label for="anime1">Naruto</label>
+       <input type="checkbox" id="anime1" value="anime1">
+       <label for="anime2">Bleach</label>
+       <input type="checkbox" id="anime2" value="anime2">
+       <label for="anime3">One Piece</label>
+       <input type="checkbox" id="anime3" value="anime3">
+      </fieldset>
+
+      <fieldset>
+        <legend>Your favorite cereal</legend>
+        <label for="c1">Fruit Loops</label>
+        <input id="c1" type="checkbox" value="c1">
+        <label for="c2">Lucky Charms</label>
+        <input id="c2" type="checkbox" value="c2">
+        <label for="c3">Fruity Pebbles</label>
+        <input id="c3" type="checkbox" value="c3">
+      </fieldset>
+
+      <label for="comments">What can we do better?</label><br>
+      <textarea cols="30" rows="10" id="comments"></textarea><br>
+      <button id="submit" type="submit">Submit</button>
+    </form>
+  </body>
+</html>
+
+** end of index.html **
+

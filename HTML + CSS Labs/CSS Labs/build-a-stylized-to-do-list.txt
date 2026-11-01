@@ -1,0 +1,99 @@
+** start of index.html **
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Styled To-Do List</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <main>
+        <ul class="todo-list">
+            <li class="list-items">
+                <input id="list" type="checkbox">
+                <label for="list">Eat Breakfast</label>
+                <ul class="sub-item">
+                    <li>
+                        <a class="sub-item-link" href="https://www.google.com" target="_blank">Breakfast Menu</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="list-items">
+                <input id="list" type="checkbox">
+                <label for="list">Log in for work</label>
+                <ul class="sub-item">
+                    <li>
+                        <a class="sub-item-link" href="https://www.google.com" target="_blank">Open SAP</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="list-items">
+                <input id="list" type="checkbox">
+                <label for="list">Read through my emails</label>
+                <ul class="sub-item">
+                    <li>
+                        <a class="sub-item-link" href="https://www.google.com" target="_blank">Open Outlook</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="list-items">
+                <input id="list" type="checkbox">
+                <label for="list">Greet my team</label>
+                <ul class="sub-item">
+                    <li>
+                        <a class="sub-item-link" href="https://www.google.com" target="_blank">Open Microsoft Teams</a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </main>
+</body>
+
+</html>
+
+** end of index.html **
+
+** start of styles.css **
+
+.sub-item-link {
+  text-decoration: none;
+  margin: 20px;
+}
+
+a:hover {
+  color: green;
+}
+
+a:active {
+  color: red;
+}
+
+a:focus {
+  border: 2px;
+}
+
+a:visited {
+  color: pink;
+}
+
+.list-items {
+  background: rgb(136, 235, 203);
+  padding: 20px;
+  margin: 20px;
+  max-width: 300px;
+}
+
+.sub-item {
+  list-style-type: square;
+  padding-bottom: 20px;
+}
+
+#list {
+  margin-bottom: 20px;
+}
+
+** end of styles.css **
+
